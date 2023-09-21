@@ -1,6 +1,9 @@
-Open source template changed to personal preferences. Hosted via Hostinger.
+# Lieflijf Indra
+## Open source template changed to personal preference. 
 
----------------------------------------------------------------------------------
+Hosted via Hostinger.com
+
+### Credits
 
 Editorial by HTML5 UP
 html5up.net | @ajlkn

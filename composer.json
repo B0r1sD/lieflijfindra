@@ -1,10 +1,4 @@
 {
-    "name": "lieflijfindra",
-    "require": {
-    },
-    "autoload": {
-        "psr-4": {
-            "": "src/"
-        }
-    }
+    "name": "B0r1sD/lieflijfindra",
+    "require": {}
 }

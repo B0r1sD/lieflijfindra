@@ -1,0 +1,11 @@
+{
+    "name": "Lieflijfindra",
+    "require": {
+        // empty bcs no dependencies, for Hostinger
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}

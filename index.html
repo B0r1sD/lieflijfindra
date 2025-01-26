@@ -14,6 +14,23 @@
 		
 		
 		<style>
+		
+  .alert {
+    background-color: #f5f6f7; /* Background color */
+    color: #c19b5e; /* Text color */
+    padding: 15px; /* Padding inside the alert */
+    border-radius: 10px; /* Rounded borders */
+    position: relative; /* For positioning the close button */
+    margin: 20px 0; /* Space around the alert */
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #721c24; /* Color of the close button */
+    cursor: pointer; /* Change cursor on hover */
+  }
 		    
 .video-container {
     width: 100%;
@@ -78,18 +95,6 @@
             }
         }
 		</style>
-	<!-- Matomo -->
-<!-- Matomo Tag Manager -->
-<script>
-  var _mtm = window._mtm = window._mtm || [];
-  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-  (function() {
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src='https://cdn.matomo.cloud/lieflijfindra.matomo.cloud/container_xVwP3x5e.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Tag Manager -->
-
 	</head>
 	<body class="is-preload">
 
@@ -110,7 +115,10 @@
 										<li><a href="https://www.facebook.com/profile.php?id=100094377330097" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
 									</ul>
 								</header>
-
+                                        <div class="alert">
+                                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                                          Helaas heb ik voor onbepaalde duur een <strong>cliëntenstop</strong> moeten inlassen. Om de kwaliteit van mijn huidige trajecten te garanderen, werk ik bewust ook niet met een wachtlijst. Mijn excuses!
+                                        </div> 
 							<!-- Banner -->
 								<section id="banner">
 									<div class="content" display=inline vertical-align=middle>
@@ -120,33 +128,39 @@
 										<img src="images/logo.jpg" class="image_logo" alt=""/>
 											<p class="text_under_image">Lieflijf met Indra Depoortere</p>
 										
+										
+										
 										<span style="color:#698063;display:block;">
-										   										    Als <strong>diëtist-psycholoog</strong> ontvang ik je graag in mijn praktijk te <strong>Ninove</strong>. Doordat ik erkend ben in beide beroepen kan je je aanmelden naargelang waar je het meest nood aan hebt. Ik probeer steeds vanuit een brede blik jouw hulpvraag te benaderen, waardoor ik nooit enkel vanuit diëtistisch of enkel psychologisch standpunt jouw hulpvraag bekijk. 
+										    Als <strong>diëtist-psycholoog</strong> ontvang ik je graag in mijn praktijk te <strong>Ninove</strong>. Doordat ik erkend ben in beide beroepen kan je je aanmelden naargelang waar je het meest nood aan hebt. Ik probeer steeds vanuit een brede blik jouw hulpvraag te benaderen, waardoor ik nooit enkel vanuit diëtistisch of enkel psychologisch standpunt jouw hulpvraag bekijk. 
 
-Mijn hoofdspecialisatie is <strong>eetstoornissen</strong>. Deze problematiek vraagt meestal naar een ondersteunende hulpverlenersnetwerk van meerdere disciplines. Ik kan jou als diëtist-psycholoog meteen 2 in 1 bieden, waarbij we dus naast symptoomgedrag ook sowieso dieper graven. Ook een <strong>moeilijke relatie met eten, emotioneel eten, stress-eten, eetbuien, overeten en buitensporig snackgedrag</strong> zijn moeilijkheden die ik graag bekijk vanuit een breed standpunt. Zeer welkom dus als je met één van bovenstaande zorgen zit en even de weg kwijt bent.
-Als ik dan toch een onderscheid moet maken, ontvang ik je graag als:	
+Mijn hoofdspecialisatie zijn <strong>eetstoornissen</strong>. Deze problematiek vraagt meestal naar een ondersteunende hulpverlenersnetwerk van meerdere disciplines. Ik kan jou als diëtist-psycholoog meteen 2 in 1 bieden, waarbij we dus naast symptoomgedrag ook sowieso dieper graven. Ook een <strong>moeilijke relatie met eten, emotioneel eten, stress-eten, eetbuien, overeten en buitensporig snackgedrag</strong> zijn moeilijkheden die ik graag bekijk vanuit een breed standpunt. Zeer welkom dus als je met één van bovenstaande zorgen zit en even de weg kwijt bent.
+	
 
 										</span>
 										<br>
 									
 										</div>
 										
-										 <div class="image-container">
+										 <!-- <div class="image-container">
                                             <img src="images/dietist_info.jpg" alt="Info diëtist">
                                             <img src="images/psych_info.jpg" alt="Info psycholoog">
                                         </div>
-										
+										-->
 
 										
                                         
                                         </header>
                                         
                                         <p>
-										<div class="video-container">
+										<!-- <div class="video-container">
 										    <video class="video" controls>
                                             <source src="videos/Voorstelling_Indra.mov" type=video/mp4>
-                                            </video>
-                                        </div>
+                                            </video> 
+                                        </div> -->
+                                        
+                                        <span class="image">
+										    <img src="images/koffie_raam.jpg" alt="Indra achter een raam met een kopje koffie" />
+									    </span>
                                         
 											
 										<ul class="actions">
@@ -239,15 +253,14 @@ Als ik dan toch een onderscheid moet maken, ontvang ik je graag als:
 								<p>Openingsuren:
 									<ul list-style="none">
 										<li>Ma-Do: Beschikbaar</li>
-										<li>Vr: Gesloten</li>
-										<li>Za: Beschikbaar</li>
-										<li>Zo: Gesloten</li>
+										<li>Vr-Zo: Gesloten</li>
+										
 									</ul>
 
 								<ul class="contact">
 									<li class="icon solid fa-envelope"><a href="mailto:info@lieflijfindra.be?subject=Vraag%20aan%20Indra%20">info@lieflijfindra.be</a></li>
 										<li class="icon solid fa-phone"><a href="tel:0470518668">0470 51 86 68</a></li>
-										<li class="icon solid fa-home"><a href="https://www.google.com/maps/place/Albertlaan+200,+9400+Ninove" target="_blank">Albertlaan 200<br />
+										<li class="icon solid fa-home"><a href="https://www.google.com/maps/place/Armand de Riemaeckerstraat+3,+9400+Ninove" target="_blank">Armand de Riemaeckerstraat 3<br />
 										9400 Ninove</a></li>
 										<li class="fa-solid fa-credit-card">BE40 0689 5002 1663</li>
 										
